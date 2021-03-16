@@ -1,0 +1,198 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+/* Header/logo Title */
+header {
+  padding: 60px;
+  text-align: left;
+  /* background: ; */
+  color: red;
+}
+
+/*  navigation bar */
+nav{
+  display: flex;
+  background-color: black;
+}
+
+
+nav a {
+ 
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* row1 */
+.first_foto {  
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+.coffe-image {
+  flex: 30%;
+  padding: 20px;
+
+}
+
+.coulmn1{
+  flex: 70%;
+  padding: 20px;
+}
+
+
+/* einde row1 */
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Sidebar */
+
+
+aside {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+
+}
+.text{
+  /* border: px ; */
+  width: 400px;
+  height: 70px;
+  background-color: black;
+  color: red;
+  margin: 5px;
+  padding: 2px;
+}
+.side-image{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  height: 20px;
+  width: 400px;
+  background-color: red;
+}
+.Social{
+  width: 400px;
+  height: 70px;
+  background-color: blue;
+  color:white;
+  margin: 5px;
+  padding: 10px;
+}
+
+
+/* Main column */
+.coulmn {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+ .par
+{
+  margin-top: -234px;
+  margin-left: 519px
+}
+
+/* Fake image, just for this example */
+.image {
+   width: 80%;
+    height: 200px;
+    padding: 20px;
+}
+.img {
+  width: 493px;
+  height: 299px;
+  padding: 20px;
+}
+.drie{
+  margin: 10px;
+  background-color: gray;
+  height: 200px;
+  height: 894px;
+
+}
+.img-drie{
+  width: 399px;
+  height: 304px;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.coffe-image1{
+  width: 100%;
+  height: 360px;
+  padding: 20px;
+}
+.test{
+  display: flex;
+justify-content: space-between;
+}
+/*footer  */
+footer{
+  background-color: rgb(235, 233, 241);
+  padding:4rem 0;
+  margin: 1rem;
+}
+footer .container{
+  display:flex;
+}
+
+footer .box{
+  flex:1;
+  margin-right:2rem;
+  text-align:center;
+}
+.container2 ul li{
+  float: left;
+  list-style: none;
+  box-sizing: border-box;
+}
+footer .box ul{
+  list-style-type: none;
+}
+footer .box ul li a{
+  text-decoration: none;
+  transition: all .3s ease;
+}
+footer .box ul li a:hover{
+  color:powderblue;
+}
+footer .box h3{
+  padding-bottom:1rem;
+  margin-bottom:1rem;
+}
+
+footer .box p{
+  line-height: 1.6;
+  margin-bottom:1rem;
+}
+/* Responsive */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
